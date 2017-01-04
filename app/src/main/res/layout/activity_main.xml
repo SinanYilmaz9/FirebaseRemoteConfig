@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.sinanyilmaz.firebaseremoteconfig.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/fire"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/new_firebase"
+        android:layout_marginStart="132dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="162dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:text=""
+        android:id="@+id/textView"
+        app:layout_constraintRight_toRightOf="@+id/fire"
+        app:layout_constraintLeft_toLeftOf="@+id/fire"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/fire"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+
+</android.support.constraint.ConstraintLayout>
