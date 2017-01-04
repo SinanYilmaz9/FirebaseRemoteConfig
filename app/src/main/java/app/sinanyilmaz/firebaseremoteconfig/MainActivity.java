@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         mRemoteConfig.setConfigSettings(configSettings);
 
-        //Hazırlanan entry-value ları set ediyoruz
+        //Hazırlanan key-value ları set ediyoruz
         mRemoteConfig.setDefaults(R.xml.remote_config_defaults);
 
 
